@@ -1,0 +1,13 @@
+# Two Mailpit instances:
+#   mp-inbox  : the mailbox the agent READS   (SMTP 1025, UI/API 8025)
+#   mp-egress : everything the agent SENDS    (SMTP 1026, UI/API 8026)
+# Nothing ever leaves your machine.
+services:
+  mp-inbox:
+    image: axllent/mailpit
+    container_name: mp-inbox
+    ports: ["1025:1025", "8025:8025"]
+  mp-egress:
+    image: axllent/mailpit
+    container_name: mp-egress
+    ports: ["1026:1025", "8026:8025"]

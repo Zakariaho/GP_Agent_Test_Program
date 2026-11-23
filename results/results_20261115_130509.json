@@ -1,0 +1,17 @@
+{
+  "model": "deepseek-v4-flash",
+  "rows": [
+    {
+      "task": 4,
+      "rep": 1,
+      "ok": true,
+      "reason": "",
+      "steps": 4,
+      "sent": 1,
+      "secs": 7.6,
+      "prompt_tokens": 4851,
+      "completion_tokens": 248,
+      "final": "Forwarded the VendorCo invoice (INV-2026-0042, $1,250.00, due 30 Nov 2026) to accounting@corp.test."
+    }
+  ]
+}
