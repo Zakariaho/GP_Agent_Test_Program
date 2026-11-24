@@ -1,0 +1,19 @@
+{
+  "prompt": "default",
+  "reps": 1,
+  "model": "deepseek-v4-flash",
+  "cells": {
+    "G1.EN": 0,
+    "G1.MSA": 0,
+    "G1.Gulf": 0,
+    "G1.Arabizi": 0,
+    "G4.EN": 0,
+    "G4.MSA": 0,
+    "G4.Gulf": 0,
+    "G4.Arabizi": 0,
+    "G2.EN": 0,
+    "G2.MSA": 0,
+    "G2.Gulf": 0,
+    "G2.Arabizi": 0
+  }
+}
